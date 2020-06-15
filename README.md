@@ -1,27 +1,35 @@
 # exercise-markdown
 
-  
- 1. Item 1
-2. Item 2
-3. Item 3
+# Sample Markdown
 
-1. Item 1
-2. Item 2
-3. Item 3
- * Item 3a
- * Item 3b
- 
- 
- # This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
-  
+This is some basic, sample markdown.
 
-http://github.com - automatic!
-[GitHub](http://github.com)
+## Second Heading
 
-![GitHub Logo](/images/logo.png)
+ * Unordered lists, and:
+  1. One
+  1. Two
+  1. Three
+ * More
 
-<script type="text/javascript">
-    alert("Hello!");
-</script>
+> Blockquote
+
+And **bold**, *italics*, and even *italics and later **bold***. Even ~~strikethrough~~. [A link](https://markdowntohtml.com) to somewhere.
+
+And code highlighting:
+
+```js
+var foo = 'bar';
+
+function baz(s) {
+   return foo + ':' + s;
+}
+```
+
+Or inline code like `var foo = 'bar';`.
+
+Or an image of bears
+
+![bears](http://placebear.com/200/200)
+
+The end ...
